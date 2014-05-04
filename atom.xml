@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Simon Weber</title>
- <link href="http://www.simonmweber.com/atom.xml" rel="self"/>
- <link href="http://www.simonmweber.com/"/>
+ <link href="http://simon.codes/atom.xml" rel="self"/>
+ <link href="http://simon.codes/"/>
  <updated>2014-05-04T02:27:20-04:00</updated>
- <id>http://www.simonmweber.com/</id>
+ <id>http://simon.codes/</id>
  <author>
    <name>Simon Weber</name>
    <email>simon@simonmweber.com</email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>VCR.py at Venmo</title>
-   <link href="http://www.simonmweber.com/2014/05/01/vcrpy-at-venmo.html"/>
+   <link href="http://simon.codes/2014/05/01/vcrpy-at-venmo.html"/>
    <updated>2014-05-01T00:00:00-04:00</updated>
-   <id>http://www.simonmweber.com/2014/05/01/vcrpy-at-venmo</id>
+   <id>http://simon.codes/2014/05/01/vcrpy-at-venmo</id>
    <content type="html">&lt;h2 id=&quot;vcrpy-at-venmo&quot;&gt;VCR.py at Venmo&lt;/h2&gt;
 
 &lt;p class=&quot;meta&quot;&gt;May 1 2014&lt;/p&gt;
@@ -33,9 +33,9 @@ Hopefully it’s helpful! Feel free to email me with questions.&lt;/p&gt;
  
  <entry>
    <title>Staying Busy</title>
-   <link href="http://www.simonmweber.com/2014/04/17/staying-busy.html"/>
+   <link href="http://simon.codes/2014/04/17/staying-busy.html"/>
    <updated>2014-04-17T00:00:00-04:00</updated>
-   <id>http://www.simonmweber.com/2014/04/17/staying-busy</id>
+   <id>http://simon.codes/2014/04/17/staying-busy</id>
    <content type="html">&lt;h2 id=&quot;staying-busy&quot;&gt;Staying Busy&lt;/h2&gt;
 
 &lt;p class=&quot;meta&quot;&gt;April 17 2014&lt;/p&gt;
@@ -65,9 +65,9 @@ a library to make Braintree integration testing easier&lt;/li&gt;
  
  <entry>
    <title>Google Helpouts first impressions</title>
-   <link href="http://www.simonmweber.com/2013/11/07/google-helpouts-first-impressions.html"/>
+   <link href="http://simon.codes/2013/11/07/google-helpouts-first-impressions.html"/>
    <updated>2013-11-07T00:00:00-05:00</updated>
-   <id>http://www.simonmweber.com/2013/11/07/google-helpouts-first-impressions</id>
+   <id>http://simon.codes/2013/11/07/google-helpouts-first-impressions</id>
    <content type="html">&lt;h2 id=&quot;google-helpouts-first-impressions&quot;&gt;Google Helpouts first impressions&lt;/h2&gt;
 
 &lt;p class=&quot;meta&quot;&gt;November 7 2013&lt;/p&gt;
@@ -136,9 +136,9 @@ I’ll definitely keep some timeslots open on the platform, and hope to have bet
  
  <entry>
    <title>Strangers, Go, and Openshift</title>
-   <link href="http://www.simonmweber.com/2013/07/31/go-openshift-and-strangers.html"/>
+   <link href="http://simon.codes/2013/07/31/go-openshift-and-strangers.html"/>
    <updated>2013-07-31T00:00:00-04:00</updated>
-   <id>http://www.simonmweber.com/2013/07/31/go-openshift-and-strangers</id>
+   <id>http://simon.codes/2013/07/31/go-openshift-and-strangers</id>
    <content type="html">&lt;h2 id=&quot;strangers-go-and-openshift&quot;&gt;Strangers, Go, and Openshift&lt;/h2&gt;
 
 &lt;p class=&quot;meta&quot;&gt;July 31 2013&lt;/p&gt;
@@ -271,9 +271,9 @@ An open source PaaS is a noble goal, and more I always welcome competition for m
  
  <entry>
    <title>Python protobuf on Google App Engine</title>
-   <link href="http://www.simonmweber.com/2013/06/18/python-protobuf-on-app-engine.html"/>
+   <link href="http://simon.codes/2013/06/18/python-protobuf-on-app-engine.html"/>
    <updated>2013-06-18T00:00:00-04:00</updated>
-   <id>http://www.simonmweber.com/2013/06/18/python-protobuf-on-app-engine</id>
+   <id>http://simon.codes/2013/06/18/python-protobuf-on-app-engine</id>
    <content type="html">&lt;h2 id=&quot;python-protobuf-on-google-app-engine&quot;&gt;Python protobuf on Google App Engine&lt;/h2&gt;
 
 &lt;p class=&quot;meta&quot;&gt;June 18 2013&lt;/p&gt;
@@ -324,9 +324,9 @@ There’s no need for &lt;a href=&quot;https://code.google.com/p/protobuf-gae-ha
  
  <entry>
    <title>Chrome extension hacks: Google Music to turntable</title>
-   <link href="http://www.simonmweber.com/2013/06/05/chrome-extension-hacks.html"/>
+   <link href="http://simon.codes/2013/06/05/chrome-extension-hacks.html"/>
    <updated>2013-06-05T00:00:00-04:00</updated>
-   <id>http://www.simonmweber.com/2013/06/05/chrome-extension-hacks</id>
+   <id>http://simon.codes/2013/06/05/chrome-extension-hacks</id>
    <content type="html">&lt;h2 id=&quot;chrome-extension-hacks-google-music-to-turntable&quot;&gt;Chrome extension hacks: Google Music to turntable&lt;/h2&gt;
 
 &lt;p class=&quot;meta&quot;&gt;June 5 2013&lt;/p&gt;
@@ -479,9 +479,9 @@ You can grab my ugly code on &lt;a href=&quot;https://github.com/simon-weber/Goo
  
  <entry>
    <title>gmusicapi retrospective</title>
-   <link href="http://www.simonmweber.com/2013/05/14/gmusicapi-retrospective.html"/>
+   <link href="http://simon.codes/2013/05/14/gmusicapi-retrospective.html"/>
    <updated>2013-05-14T00:00:00-04:00</updated>
-   <id>http://www.simonmweber.com/2013/05/14/gmusicapi-retrospective</id>
+   <id>http://simon.codes/2013/05/14/gmusicapi-retrospective</id>
    <content type="html">&lt;h2 id=&quot;gmusicapi-retrospective&quot;&gt;gmusicapi retrospective&lt;/h2&gt;
 
 &lt;p class=&quot;meta&quot;&gt;May 14 2013&lt;/p&gt;
@@ -565,9 +565,9 @@ I figure this means knocking out todos, beefing up internal documentation, and r
  
  <entry>
    <title>Development on a Chromebook: an opinionated guide</title>
-   <link href="http://www.simonmweber.com/2013/04/20/development-on-a-chromebook-an-opinionated-guide.html"/>
+   <link href="http://simon.codes/2013/04/20/development-on-a-chromebook-an-opinionated-guide.html"/>
    <updated>2013-04-20T00:00:00-04:00</updated>
-   <id>http://www.simonmweber.com/2013/04/20/development-on-a-chromebook-an-opinionated-guide</id>
+   <id>http://simon.codes/2013/04/20/development-on-a-chromebook-an-opinionated-guide</id>
    <content type="html">&lt;h2 id=&quot;development-on-a-chromebook-an-opinionated-guide&quot;&gt;Development on a Chromebook: an opinionated guide&lt;/h2&gt;
 
 &lt;p class=&quot;meta&quot;&gt;April 20 2013, updated April 17 2014&lt;/p&gt;
@@ -720,9 +720,9 @@ as better tools arrive.&lt;/p&gt;
  
  <entry>
    <title>Tough cookies: a debugging story</title>
-   <link href="http://www.simonmweber.com/2013/02/14/tough-cookies-a-debugging-story.html"/>
+   <link href="http://simon.codes/2013/02/14/tough-cookies-a-debugging-story.html"/>
    <updated>2013-02-14T00:00:00-05:00</updated>
-   <id>http://www.simonmweber.com/2013/02/14/tough-cookies-a-debugging-story</id>
+   <id>http://simon.codes/2013/02/14/tough-cookies-a-debugging-story</id>
    <content type="html">&lt;h2 id=&quot;tough-cookies-a-debugging-story&quot;&gt;Tough cookies: a debugging story&lt;/h2&gt;
 
 &lt;p class=&quot;meta&quot;&gt;February 14 2012&lt;/p&gt;
@@ -847,9 +847,9 @@ As for me, having learned from this bug hunt, hopefully I’ll never be suckered
  
  <entry>
    <title>What's in a genre?</title>
-   <link href="http://www.simonmweber.com/2012/09/07/whats-in-a-genre.html"/>
+   <link href="http://simon.codes/2012/09/07/whats-in-a-genre.html"/>
    <updated>2012-09-07T00:00:00-04:00</updated>
-   <id>http://www.simonmweber.com/2012/09/07/whats-in-a-genre</id>
+   <id>http://simon.codes/2012/09/07/whats-in-a-genre</id>
    <content type="html">&lt;script src=&quot;//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js&quot;&gt;
 &lt;/script&gt;
 
@@ -905,9 +905,9 @@ $(document).ready(function(){
  
  <entry>
    <title>Returning to the east</title>
-   <link href="http://www.simonmweber.com/2012/08/29/returning-to-the-east.html"/>
+   <link href="http://simon.codes/2012/08/29/returning-to-the-east.html"/>
    <updated>2012-08-29T00:00:00-04:00</updated>
-   <id>http://www.simonmweber.com/2012/08/29/returning-to-the-east</id>
+   <id>http://simon.codes/2012/08/29/returning-to-the-east</id>
    <content type="html">&lt;h2 id=&quot;returning-to-the-east&quot;&gt;Returning to the east&lt;/h2&gt;
 
 &lt;p class=&quot;meta&quot;&gt;August 29 2012&lt;/p&gt;
@@ -933,9 +933,9 @@ $(document).ready(function(){
  
  <entry>
    <title>Cold-email a VP, publish in Phrack</title>
-   <link href="http://www.simonmweber.com/2012/04/14/email-vps-and-publish-in-phrack.html"/>
+   <link href="http://simon.codes/2012/04/14/email-vps-and-publish-in-phrack.html"/>
    <updated>2012-04-14T00:00:00-04:00</updated>
-   <id>http://www.simonmweber.com/2012/04/14/email-vps-and-publish-in-phrack</id>
+   <id>http://simon.codes/2012/04/14/email-vps-and-publish-in-phrack</id>
    <content type="html">&lt;h2 id=&quot;cold-email-a-vp-publish-in-phrack&quot;&gt;Cold-email a VP, publish in Phrack&lt;/h2&gt;
 
 &lt;p class=&quot;meta&quot;&gt;April 14 2012&lt;/p&gt;
