@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Simon Weber</title>
- <link href="http://simon.codes/atom.xml" rel="self"/>
- <link href="http://simon.codes/"/>
- <updated>2014-05-04T02:27:20-04:00</updated>
- <id>http://simon.codes/</id>
+ <link href="http://www.simonmweber.com/atom.xml" rel="self"/>
+ <link href="http://www.simonmweber.com/"/>
+ <updated>2014-11-23T17:49:11-05:00</updated>
+ <id>http://www.simonmweber.com/</id>
  <author>
    <name>Simon Weber</name>
    <email>simon@simonmweber.com</email>
@@ -13,10 +13,32 @@
 
  
  <entry>
+   <title>Adding a vcs dependency to requirements.txt</title>
+   <link href="http://www.simonmweber.com/2014/11/23/git-pip-requirements.html"/>
+   <updated>2014-11-23T00:00:00-05:00</updated>
+   <id>http://www.simonmweber.com/2014/11/23/git-pip-requirements</id>
+   <content type="html">&lt;h2 id=&quot;adding-a-vcs-dependency-to-requirementstxt&quot;&gt;Adding a vcs dependency to requirements.txt&lt;/h2&gt;
+
+&lt;p class=&quot;meta&quot;&gt;November 23 2014&lt;/p&gt;
+
+&lt;p&gt;It’s sometimes useful to point your requirements.txt at code not yet on the cheeseshop.
+For example, imagine you’ve just sent a bugfix PR to an existing dependency.
+Instead of waiting for the PR to be merged, you can just change your dependency to point at your fork.&lt;/p&gt;
+
+&lt;p&gt;When adding the dependency line, there are two bits I don’t often see people use: the egg declaration and the version.
+Leaving these out will make &lt;code&gt;pip install -r&lt;/code&gt;  reclone and reinstall your package every time, even if it hasn’t changed.
+Here’s an example of setting these when pointing to &lt;a href=&quot;https://github.com/simon-weber/Unofficial-Google-Music-API&quot;&gt;gmusicapi&lt;/a&gt; 4.0.0 on Github:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;git+https://github.com/simon-weber/Unofficial-Google-Music-API.git@4.0.0#egg&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;gmusicapi&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;==&lt;/span&gt;4.0.0&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
    <title>VCR.py at Venmo</title>
-   <link href="http://simon.codes/2014/05/01/vcrpy-at-venmo.html"/>
+   <link href="http://www.simonmweber.com/2014/05/01/vcrpy-at-venmo.html"/>
    <updated>2014-05-01T00:00:00-04:00</updated>
-   <id>http://simon.codes/2014/05/01/vcrpy-at-venmo</id>
+   <id>http://www.simonmweber.com/2014/05/01/vcrpy-at-venmo</id>
    <content type="html">&lt;h2 id=&quot;vcrpy-at-venmo&quot;&gt;VCR.py at Venmo&lt;/h2&gt;
 
 &lt;p class=&quot;meta&quot;&gt;May 1 2014&lt;/p&gt;
@@ -33,9 +55,9 @@ Hopefully it’s helpful! Feel free to email me with questions.&lt;/p&gt;
  
  <entry>
    <title>Staying Busy</title>
-   <link href="http://simon.codes/2014/04/17/staying-busy.html"/>
+   <link href="http://www.simonmweber.com/2014/04/17/staying-busy.html"/>
    <updated>2014-04-17T00:00:00-04:00</updated>
-   <id>http://simon.codes/2014/04/17/staying-busy</id>
+   <id>http://www.simonmweber.com/2014/04/17/staying-busy</id>
    <content type="html">&lt;h2 id=&quot;staying-busy&quot;&gt;Staying Busy&lt;/h2&gt;
 
 &lt;p class=&quot;meta&quot;&gt;April 17 2014&lt;/p&gt;
@@ -65,9 +87,9 @@ a library to make Braintree integration testing easier&lt;/li&gt;
  
  <entry>
    <title>Google Helpouts first impressions</title>
-   <link href="http://simon.codes/2013/11/07/google-helpouts-first-impressions.html"/>
+   <link href="http://www.simonmweber.com/2013/11/07/google-helpouts-first-impressions.html"/>
    <updated>2013-11-07T00:00:00-05:00</updated>
-   <id>http://simon.codes/2013/11/07/google-helpouts-first-impressions</id>
+   <id>http://www.simonmweber.com/2013/11/07/google-helpouts-first-impressions</id>
    <content type="html">&lt;h2 id=&quot;google-helpouts-first-impressions&quot;&gt;Google Helpouts first impressions&lt;/h2&gt;
 
 &lt;p class=&quot;meta&quot;&gt;November 7 2013&lt;/p&gt;
@@ -136,9 +158,9 @@ I’ll definitely keep some timeslots open on the platform, and hope to have bet
  
  <entry>
    <title>Strangers, Go, and Openshift</title>
-   <link href="http://simon.codes/2013/07/31/go-openshift-and-strangers.html"/>
+   <link href="http://www.simonmweber.com/2013/07/31/go-openshift-and-strangers.html"/>
    <updated>2013-07-31T00:00:00-04:00</updated>
-   <id>http://simon.codes/2013/07/31/go-openshift-and-strangers</id>
+   <id>http://www.simonmweber.com/2013/07/31/go-openshift-and-strangers</id>
    <content type="html">&lt;h2 id=&quot;strangers-go-and-openshift&quot;&gt;Strangers, Go, and Openshift&lt;/h2&gt;
 
 &lt;p class=&quot;meta&quot;&gt;July 31 2013&lt;/p&gt;
@@ -271,9 +293,9 @@ An open source PaaS is a noble goal, and more I always welcome competition for m
  
  <entry>
    <title>Python protobuf on Google App Engine</title>
-   <link href="http://simon.codes/2013/06/18/python-protobuf-on-app-engine.html"/>
+   <link href="http://www.simonmweber.com/2013/06/18/python-protobuf-on-app-engine.html"/>
    <updated>2013-06-18T00:00:00-04:00</updated>
-   <id>http://simon.codes/2013/06/18/python-protobuf-on-app-engine</id>
+   <id>http://www.simonmweber.com/2013/06/18/python-protobuf-on-app-engine</id>
    <content type="html">&lt;h2 id=&quot;python-protobuf-on-google-app-engine&quot;&gt;Python protobuf on Google App Engine&lt;/h2&gt;
 
 &lt;p class=&quot;meta&quot;&gt;June 18 2013&lt;/p&gt;
@@ -281,9 +303,8 @@ An open source PaaS is a noble goal, and more I always welcome competition for m
 &lt;p&gt;Today, if you try to use Google Protocol Buffers on App Engine, you’ll run into
 an error like this one:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;python&quot;&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;google.protobuf&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;descriptor&lt;/span&gt; 
-&lt;span class=&quot;ne&quot;&gt;ImportError&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;No&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;module&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;named&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;protobuf&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;google.protobuf&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;descriptor&lt;/span&gt; 
+&lt;span class=&quot;ne&quot;&gt;ImportError&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;No&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;module&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;named&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;protobuf&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;The problem is that Google’s own App Engine apis also use the &lt;code&gt;google&lt;/code&gt; package namespace,
 and they don’t include the protobuf package.&lt;/p&gt;
@@ -292,19 +313,18 @@ and they don’t include the protobuf package.&lt;/p&gt;
 First, vendorize the library as you normally would.
 I just ripped the &lt;code&gt;site-packages&lt;/code&gt; folder from a virtualenv into the application root:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;app.py
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;app.py
 app.yaml
 vendor
 ├── google
 │   └── protobuf...
-└── httplib2...
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+└── httplib2...&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Then, just add your google directory to the google namespace, and add your
 vendor directory to the system path.
 I used this bit of code:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;python&quot;&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;os&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;os&lt;/span&gt;
 &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sys&lt;/span&gt;
 
 &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;google&lt;/span&gt;  &lt;span class=&quot;c&quot;&gt;# provided by GAE&lt;/span&gt;
@@ -314,8 +334,7 @@ I used this bit of code:&lt;/p&gt;
 &lt;span class=&quot;n&quot;&gt;google&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__path__&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;vendor_dir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;#39;google&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
 
 &lt;span class=&quot;c&quot;&gt;# add vendor path&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;sys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;vendor_dir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;n&quot;&gt;sys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;vendor_dir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;That’s it!
 There’s no need for &lt;a href=&quot;https://code.google.com/p/protobuf-gae-hack&quot;&gt;weird hacks&lt;/a&gt;.&lt;/p&gt;
@@ -324,9 +343,9 @@ There’s no need for &lt;a href=&quot;https://code.google.com/p/protobuf-gae-ha
  
  <entry>
    <title>Chrome extension hacks: Google Music to turntable</title>
-   <link href="http://simon.codes/2013/06/05/chrome-extension-hacks.html"/>
+   <link href="http://www.simonmweber.com/2013/06/05/chrome-extension-hacks.html"/>
    <updated>2013-06-05T00:00:00-04:00</updated>
-   <id>http://simon.codes/2013/06/05/chrome-extension-hacks</id>
+   <id>http://www.simonmweber.com/2013/06/05/chrome-extension-hacks</id>
    <content type="html">&lt;h2 id=&quot;chrome-extension-hacks-google-music-to-turntable&quot;&gt;Chrome extension hacks: Google Music to turntable&lt;/h2&gt;
 
 &lt;p class=&quot;meta&quot;&gt;June 5 2013&lt;/p&gt;
@@ -386,7 +405,7 @@ Even the isolated world isn’t bulletproof: with DOM access, you can inject a s
 &lt;p&gt;My extension uses all three pieces mentioned above: background, content, and injected scripts.
 All together, they communicate like this:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;our background script
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;our background script
      ^
      &lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;
      &lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;
@@ -406,8 +425,7 @@ our injected code
    &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;global namespace&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
      &lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;
      v
-other code on the page
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+other code on the page&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Now that we know what we have to work with, I’ll go over how I addressed each of the big pieces of my solution.&lt;/p&gt;
 
@@ -450,11 +468,10 @@ Html5 Files, though, can only be created when a user interacts with a file input
 &lt;p&gt;Luckily, Files aren’t much different from Blobs: they just add a filename and date of modification.
 Duck typing to the rescue!&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;&lt;span class=&quot;c1&quot;&gt;//b is our Blob&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;c1&quot;&gt;//b is our Blob&lt;/span&gt;
 &lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;myfile.mp3&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;lastModifiedDate&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// tada!&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;c1&quot;&gt;// tada!&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;h3 id=&quot;putting-it-all-together&quot;&gt;Putting it all together&lt;/h3&gt;
 
@@ -479,9 +496,9 @@ You can grab my ugly code on &lt;a href=&quot;https://github.com/simon-weber/Goo
  
  <entry>
    <title>gmusicapi retrospective</title>
-   <link href="http://simon.codes/2013/05/14/gmusicapi-retrospective.html"/>
+   <link href="http://www.simonmweber.com/2013/05/14/gmusicapi-retrospective.html"/>
    <updated>2013-05-14T00:00:00-04:00</updated>
-   <id>http://simon.codes/2013/05/14/gmusicapi-retrospective</id>
+   <id>http://www.simonmweber.com/2013/05/14/gmusicapi-retrospective</id>
    <content type="html">&lt;h2 id=&quot;gmusicapi-retrospective&quot;&gt;gmusicapi retrospective&lt;/h2&gt;
 
 &lt;p class=&quot;meta&quot;&gt;May 14 2013&lt;/p&gt;
@@ -565,9 +582,9 @@ I figure this means knocking out todos, beefing up internal documentation, and r
  
  <entry>
    <title>Development on a Chromebook: an opinionated guide</title>
-   <link href="http://simon.codes/2013/04/20/development-on-a-chromebook-an-opinionated-guide.html"/>
+   <link href="http://www.simonmweber.com/2013/04/20/development-on-a-chromebook-an-opinionated-guide.html"/>
    <updated>2013-04-20T00:00:00-04:00</updated>
-   <id>http://simon.codes/2013/04/20/development-on-a-chromebook-an-opinionated-guide</id>
+   <id>http://www.simonmweber.com/2013/04/20/development-on-a-chromebook-an-opinionated-guide</id>
    <content type="html">&lt;h2 id=&quot;development-on-a-chromebook-an-opinionated-guide&quot;&gt;Development on a Chromebook: an opinionated guide&lt;/h2&gt;
 
 &lt;p class=&quot;meta&quot;&gt;April 20 2013, updated April 17 2014&lt;/p&gt;
@@ -720,9 +737,9 @@ as better tools arrive.&lt;/p&gt;
  
  <entry>
    <title>Tough cookies: a debugging story</title>
-   <link href="http://simon.codes/2013/02/14/tough-cookies-a-debugging-story.html"/>
+   <link href="http://www.simonmweber.com/2013/02/14/tough-cookies-a-debugging-story.html"/>
    <updated>2013-02-14T00:00:00-05:00</updated>
-   <id>http://simon.codes/2013/02/14/tough-cookies-a-debugging-story</id>
+   <id>http://www.simonmweber.com/2013/02/14/tough-cookies-a-debugging-story</id>
    <content type="html">&lt;h2 id=&quot;tough-cookies-a-debugging-story&quot;&gt;Tough cookies: a debugging story&lt;/h2&gt;
 
 &lt;p class=&quot;meta&quot;&gt;February 14 2012&lt;/p&gt;
@@ -756,7 +773,7 @@ This only affected non-US logins!&lt;/p&gt;
 &lt;p&gt;Now that I had a way to recreate the bug, I fired up git bisect to track down the commit that introduced it.
 Inside a function to take a &lt;a href=&quot;http://docs.python-requests.org/en/latest/&quot;&gt;requests.Request&lt;/a&gt; and send it off to Google, here’s the relevant code before:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;python&quot;&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;send_xt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;send_xt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
     &lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;params&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;u&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
     &lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;params&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;xt&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get_web_cookie&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;xt&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 
@@ -767,12 +784,11 @@ Inside a function to take a &lt;a href=&quot;http://docs.python-requests.org/en/
 &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;requests&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Session&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;res&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;send&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;prep_request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 
-&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;res&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;res&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;and after:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;python&quot;&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cookies&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cookies&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
     &lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cookies&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
 
 &lt;span class=&quot;c&quot;&gt;#Attach auth.&lt;/span&gt;
@@ -792,21 +808,18 @@ Inside a function to take a &lt;a href=&quot;http://docs.python-requests.org/en/
 &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;requests&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Session&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 
 &lt;span class=&quot;n&quot;&gt;res&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;send&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;prepped&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;session_options&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;res&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;res&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;The commit was some refactoring from two separate request-sending functions (eg send_web_request and send_musicmanager_request) to one.
 Do you see the bug?
 Here’s a hint, changing:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;python&quot;&gt;&lt;span class=&quot;n&quot;&gt;web_cookies&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;web_cookies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cookies&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;update&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;web_cookies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;n&quot;&gt;web_cookies&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;web_cookies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cookies&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;update&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;web_cookies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;to:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;python&quot;&gt;&lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cookies&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;web_cookies&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cookies&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;web_cookies&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;solves the problem (hackily, since then clientlogin and sso auth can’t be sent together, but that never happens anyway - and this will all be rewritten soon).&lt;/p&gt;
 
@@ -847,9 +860,9 @@ As for me, having learned from this bug hunt, hopefully I’ll never be suckered
  
  <entry>
    <title>What's in a genre?</title>
-   <link href="http://simon.codes/2012/09/07/whats-in-a-genre.html"/>
+   <link href="http://www.simonmweber.com/2012/09/07/whats-in-a-genre.html"/>
    <updated>2012-09-07T00:00:00-04:00</updated>
-   <id>http://simon.codes/2012/09/07/whats-in-a-genre</id>
+   <id>http://www.simonmweber.com/2012/09/07/whats-in-a-genre</id>
    <content type="html">&lt;script src=&quot;//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js&quot;&gt;
 &lt;/script&gt;
 
@@ -905,9 +918,9 @@ $(document).ready(function(){
  
  <entry>
    <title>Returning to the east</title>
-   <link href="http://simon.codes/2012/08/29/returning-to-the-east.html"/>
+   <link href="http://www.simonmweber.com/2012/08/29/returning-to-the-east.html"/>
    <updated>2012-08-29T00:00:00-04:00</updated>
-   <id>http://simon.codes/2012/08/29/returning-to-the-east</id>
+   <id>http://www.simonmweber.com/2012/08/29/returning-to-the-east</id>
    <content type="html">&lt;h2 id=&quot;returning-to-the-east&quot;&gt;Returning to the east&lt;/h2&gt;
 
 &lt;p class=&quot;meta&quot;&gt;August 29 2012&lt;/p&gt;
@@ -933,9 +946,9 @@ $(document).ready(function(){
  
  <entry>
    <title>Cold-email a VP, publish in Phrack</title>
-   <link href="http://simon.codes/2012/04/14/email-vps-and-publish-in-phrack.html"/>
+   <link href="http://www.simonmweber.com/2012/04/14/email-vps-and-publish-in-phrack.html"/>
    <updated>2012-04-14T00:00:00-04:00</updated>
-   <id>http://simon.codes/2012/04/14/email-vps-and-publish-in-phrack</id>
+   <id>http://www.simonmweber.com/2012/04/14/email-vps-and-publish-in-phrack</id>
    <content type="html">&lt;h2 id=&quot;cold-email-a-vp-publish-in-phrack&quot;&gt;Cold-email a VP, publish in Phrack&lt;/h2&gt;
 
 &lt;p class=&quot;meta&quot;&gt;April 14 2012&lt;/p&gt;
